@@ -1,0 +1,41 @@
+.custom-width {
+  width: 110px !important;
+}
+
+.custom-width-1 {
+  width: 130px !important;
+}
+
+.title {
+  background-color: #2e2c2c;
+  color: aliceblue;
+  padding: 40px;
+}
+
+.centered-text-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+.centered-text-line::before,
+.centered-text-line::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid #dfdddd;
+}
+.centered-text-line::before {
+  margin-right: 10px;
+}
+.centered-text-line::after {
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #2e2c2c !important;
+  color: aliceblue;
+}
+
+.border-right {
+  border-right: 1px solid #464545;
+}
